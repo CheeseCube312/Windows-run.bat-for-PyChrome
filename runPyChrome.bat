@@ -29,6 +29,9 @@ if errorlevel 1 (
     echo.
 )
 
-REM Run the application
+
+REM Run the application from the correct directory
 echo Starting Py-Chrome...
-.venv\Scripts\python.exe "OPEN SOURCE Py-Chrome V8.py"
+cd "Source Code\Source Code"
+..\..\.venv\Scripts\python.exe app.py
+cd ..\..
