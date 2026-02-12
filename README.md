@@ -1,21 +1,18 @@
-# Windows-run.bat-for-PyChrome-V8
-This is the .bat file for reddit user u/KlutzyAd8521's PyChrome V8 image editing tool. For attribution and copyright reasons I do not include the actual program. Hope KlutzyAd8625 will add the project to Github so I can just add it to the project properly.
 
+# Windows run.bat for PyChrome (Updated)
 
-# Ressources:
-- my Github link: https://github.com/CheeseCube312/Windows-run.bat-for-PyChrome-V8/releases
-- KlutzyAd8521's PyChromeV8 Guide: https://www.reddit.com/r/infraredphotography/comments/1qjqp9l/an_indepth_guide_to_pychrome_v8/
-- Google-drive link: https://drive.google.com/drive/folders/1XfYbA3B1xkueSE0f3-u8OMxCm1_nh9kA
-- Python: https://www.python.org/downloads/
+This is the updated .bat launcher for reddit user u/KlutzyAd8521's PyChrome image editing tool. This version works with the new folder structure and main script (app.py), and expects the code to be in the "Source Code" folder.
 
-# Steps:
-1. If you don't have it yet, download and Install Python* (important: check "Install to PATH" during the installation)
-2. Open Google-Drive link
-3. Download "OPEN SOURCE Py-Chrome V8.py" 
-4. Download "Examples photos to try"-folder (optional, but recommended for testing)
-5. Download the .bat file from the Github release-page 
-6. Create a folder, place the 3 files inside.
-7. Unpack "Examples photos to try.zip"
-8. Click run.bat
+## Resources
+- [Python](https://www.python.org/downloads/)
+- [PyChromeV8 Guide](https://www.reddit.com/r/infraredphotography/comments/1qjqp9l/an_indepth_guide_to_pychrome_v8/)
 
-Everything should just install. After that all the stuff from the guide applies. :)
+## Steps
+1. If you don't have it yet, download and install Python (important: check "Add Python to PATH" during installation).
+2. Download the PyChrome source code and place it in a folder with the following structure:
+	- `Source Code/app.py` 
+3. (Optional) Download example photos for testing.
+4. Place the updated `run.bat` in the main project folder (next to the `Source Code` folder).
+5. Double-click `run.bat` to launch PyChrome. The script will set up a virtual environment and install dependencies if needed.
+
+Everything should install and run automatically. After that, refer to the guide for usage instructions.

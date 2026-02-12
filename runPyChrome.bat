@@ -30,8 +30,14 @@ if errorlevel 1 (
 )
 
 
-REM Run the application from the correct directory
+
+REM Run the application from single-nested Source Code folder
+if not exist "Source Code\app.py" (
+    echo ERROR: Could not find app.py in Source Code folder!
+    pause
+    exit /b 1
+)
+cd "Source Code"
 echo Starting Py-Chrome...
-cd "Source Code\Source Code"
-..\..\.venv\Scripts\python.exe app.py
-cd ..\..
+"%~dp0.venv\Scripts\python.exe" app.py
+cd ..
