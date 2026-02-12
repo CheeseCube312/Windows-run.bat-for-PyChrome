@@ -6,6 +6,7 @@ This is the updated .bat launcher for reddit user u/KlutzyAd8521's PyChrome imag
 ## Resources
 - [Python](https://www.python.org/downloads/)
 - [PyChromeV8 Guide](https://www.reddit.com/r/infraredphotography/comments/1qjqp9l/an_indepth_guide_to_pychrome_v8/)
+- [Most Recent PyChrome-Version](https://www.reddit.com/r/infraredphotography/comments/1r2q5p1/pychrome_version_9_available/)
 
 ## Steps
 1. If you don't have it yet, download and install Python (important: check "Add Python to PATH" during installation).
