@@ -1,5 +1,8 @@
+# DEPRECATED: Just use the standalone version with lightroom integration. It runs on windows and is based on a newer version. 
 
-# Windows run.bat for PyChrome (Updated)
+
+
+## Windows run.bat for PyChrome (Updated)
 
 This is the updated .bat launcher for reddit user u/KlutzyAd8521's PyChrome image editing tool. This version works with the new folder structure and main script (app.py), and expects the code to be in the "Source Code" folder.
 
