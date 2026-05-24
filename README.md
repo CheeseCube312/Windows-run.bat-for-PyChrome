@@ -1,4 +1,4 @@
-# DEPRECATED: Just use the standalone version with lightroom integration. It runs on windows and is based on a newer version. 
+# DEPRECATED: Just use the standalone version with lightroom integration. It runs on windows and is based on a newer version of PyChrome. 
 
 
 
